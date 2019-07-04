@@ -18,6 +18,7 @@ public class GlobalUtilDateConverter implements Converter<String, Date> {
 		Date date = null;
 		PropertiesUtils utils = new PropertiesUtils();
 		SimpleDateFormat format = null;
+
 		try {
 			Properties properties = utils.getProperties();
 			Set<Object> keys = properties.keySet();
