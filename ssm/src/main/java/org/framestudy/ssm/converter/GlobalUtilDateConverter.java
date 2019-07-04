@@ -21,7 +21,7 @@ public class GlobalUtilDateConverter implements Converter<String, Date> {
 		try {
 			Properties properties = utils.getProperties();
 			Set<Object> keys = properties.keySet();
-			
+			System.currentTimeMillis();
 			if(StringUtils.hasLength(text)) {
 				for (Object object : keys) {
 					String key = (String) object;
