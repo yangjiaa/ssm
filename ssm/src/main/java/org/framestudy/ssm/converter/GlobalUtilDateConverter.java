@@ -15,6 +15,7 @@ public class GlobalUtilDateConverter implements Converter<String, Date> {
 
 	public Date convert(String text) {
 		// TODO Auto-generated method stub
+		System.currentTimeMillis();
 		Date date = null;
 		PropertiesUtils utils = new PropertiesUtils();
 		SimpleDateFormat format = null;
