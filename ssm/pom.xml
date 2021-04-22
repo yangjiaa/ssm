@@ -10,7 +10,7 @@
 	<properties>
 		<spring.version>4.2.0.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
-		<mybatis.version>3.2.0</mybatis.version>
+		<mybatis.version>3.5.6</mybatis.version>
 		<aspectj.version>1.8.6</aspectj.version>
 		<commons.version>1.2.2</commons.version>
 		<log4j.version>1.2.16</log4j.version>
